@@ -8,7 +8,9 @@ import Login from './pages/Login';
 import Messages from './pages/Messages';
 import Register from './pages/Register';
 import SelectCharacter from './pages/SelectCharacter';
-import Test from './pages/Test';
+
+// UTILS
+import RequiredAuth from './utils/RequiredAuth';
 
 // UI ELEMENTS
 import { Alert } from "react-bootstrap";
@@ -21,7 +23,6 @@ function App() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
     // REDUX STATES
-    const isAuth = useSelector(state => state.auth.uid);
     const isShowMessage = useSelector(state => state.uiFeedbackMessage.isShow);
     const popupMessage = useSelector(state => state.uiFeedbackMessage.messageContent)
     const isLoading = useSelector(state => state.uiLoading.isShow);
@@ -46,9 +47,10 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Login />} />
                     <Route path="register" element={<Register />} />
-                    <Route path="messages" element={<Messages />} />
-                    <Route path="select_character" element={<SelectCharacter />} />
-                    <Route path="test" element={<Test />} />
+                    
+                    <Route path="messages" element={<RequiredAuth><Messages/></RequiredAuth>} />
+                    <Route path="select_character" element={<RequiredAuth><SelectCharacter/></RequiredAuth>} />
+                    
                     <Route path="*" element={<PageNotFound />} />
                 </Routes>
             </main>
