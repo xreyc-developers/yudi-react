@@ -1,0 +1,41 @@
+.contacts-wrapper {
+    border-right: 1px solid var(--line-color-1);
+    background-color: #fff;
+}
+
+.contacts-tab-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 1px solid var(--line-color-1);
+}
+
+.contacts-tab-wrapper>div {
+    padding: 10px 0px;
+    font-size: 20px;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+}
+
+.contacts-tab-wrapper>div:first-child {
+    border-right: 1px solid var(--line-color-2);
+}
+
+.contacts-search-wrapper {
+    border-bottom: 1px solid var(--line-color-2);
+}
+
+.contacts-search-wrapper > input {
+    padding: 2px 0px 3px 10px;
+    background-color: #fcfcfc;
+    border: 0px;
+    width: 100%;
+    height: 40px;
+}
+
+.contacts-list-wrapper {
+    padding: 0px 10px 10px 10px;
+    height: calc(100vh - 152px);
+    overflow-y: scroll;
+}
+

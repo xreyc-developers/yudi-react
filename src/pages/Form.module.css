@@ -1,0 +1,91 @@
+.form-wrapper {
+    padding-top: 50vh;
+    padding-left: 50vw;
+    height: 100vh;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 1px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #111;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.171);
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-brand {
+    padding: 20px;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-brand>div>img {
+    height: 100px;
+}
+
+.form-brand>div>span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    border: 1.7px solid #111;
+    border-radius: 1px;
+    padding: 10px 10px;
+    background-color: var(--color-white);
+    color: #111;
+}
+
+.form-validation-message {
+    font-size: 12px;
+    color: var(--color-primary);
+}
+
+.form-links {
+    margin-top: 2px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form-links>div>:first-child {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.form-links>div:last-child {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.form-links>div:last-child>a {
+    color: var(--color-primary);
+}
+
+.form-or {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.form-footer>a {
+    color: var(--color-primary);
+}
+
+.google-btn-wrapper {
+    padding: 20px 0px 0px 88px;
+}

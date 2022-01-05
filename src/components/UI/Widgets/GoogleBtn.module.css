@@ -1,0 +1,41 @@
+/* GOOGLE */
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+.google-btn {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    width: 184px;
+    display: grid;
+    grid-template-columns: 40px calc(100% - 40px);
+    border-radius: 2px;
+}
+
+.google-icon-wrapper {
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.google-icon {
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+}
+
+.btn-text {
+    margin: 10px 0 0 0;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.google-btn:hover {
+    box-shadow: 0 0 6px #4285f4;
+}
+
+.google-btn:active {
+    background: #1669F2;
+}

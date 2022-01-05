@@ -1,0 +1,17 @@
+.message-wrapper {
+    border-right: 1px solid var(--line-color-1);
+}
+
+.message-list-wrapper {
+    padding: 10px 10px 20px 10px;
+    height: calc(100vh - 157px);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.unlinked-message {
+    padding: 15px 20px;
+    background-color: rgb(223, 225, 255);
+    border: 1px solid rgb(168, 158, 221);
+}

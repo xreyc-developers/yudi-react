@@ -1,0 +1,30 @@
+.emogi-wrapper {
+    margin-top: 0px;
+}
+
+.emogi-list-wrapper {
+    padding: 0px 0px 0px 10px;
+    height: calc(100vh - 109px);
+    overflow-y: scroll;
+}
+
+.emogi-list-wrapper>span {
+    margin: 10px 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.emogi-tab {
+    padding: 5px 10px;
+    background-color: #fff;
+    border-top: 1px solid var(--line-color-1);
+}
+
+.emogi-tab > span {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.emogi-tab > span:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+/* CONTACT */
+.contact-name {
+    padding: 6px 7px 0px 10px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 47px calc(100% - 47px);
+    height: 60px;
+    border-bottom: 1px solid var(--line-color-1);
+}
+
+.contact-name>div:last-child {
+    padding-top: 10px;
+}
+
+.contact-name>div>span {
+    font-weight: bold;
+    font-size: 17px;
+}

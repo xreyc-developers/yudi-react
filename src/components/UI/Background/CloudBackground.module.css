@@ -1,0 +1,79 @@
+.sky {
+    position: absolute;
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -2;
+}
+.cloud1 {
+    position: absolute;
+    top: 20px;
+    animation-name: animation1;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+.cloud1>img {
+    height: 100px;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 130px;
+    animation-name: animation2;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+.cloud2>img {
+    height:130px;
+}
+
+.cloud3 {
+    position: absolute;
+    top: 250px;
+    animation-name: animation1;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+.cloud3>img {
+    height: 150px;
+}
+
+.cloud4 {
+    position: absolute;
+    top: 400px;
+    animation-name: animation1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+.cloud4>img {
+    height: 170px;
+}
+
+.cloud5 {
+    position: absolute;
+    top: 550px;
+    animation-name: animation2;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+.cloud5>img {
+    height: 100px;
+}
+
+@keyframes animation1 {
+    0%   { left: 0px;}
+    50%  { left: 90vw;}
+    100% { left: 0px;}
+}
+
+@keyframes animation2 {
+    0%   { left: 80vw;}
+    50%  { left: 0px;}
+    100% { left: 80vw;}
+}

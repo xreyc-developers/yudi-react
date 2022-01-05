@@ -1,0 +1,30 @@
+/* CONTACT */
+.profile-name {
+    padding: 6px 7px 0px 10px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 47px calc(100% - 47px);
+    height: 60px;
+    border-bottom: 1px solid var(--line-color-1);
+}
+
+.profile-name>div:last-child {
+    padding-top: 10px;
+}
+
+.profile-name>div>span {
+    font-weight: bold;
+    font-size: 17px;
+    color: var(--color-primary);
+}
+
+.profile-name>div>a {
+    padding: 0px 10px 0px 10px;
+    float: right;
+    font-weight: bold;
+}
+
+.profile-name>div>a:hover {
+    color: var(--color-primary) !important;
+    cursor: pointer;
+}
